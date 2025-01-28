@@ -126,7 +126,7 @@ footer ul{
     height: 100%; 
     }
     header>nav>ul>li>ul{
-        width: 375px;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -134,18 +134,44 @@ footer ul{
         align-items: center;
         flex-wrap: wrap;
         background-color: #f9f8f4;
+        gap: 7px;
+    }
+    header>nav>ul>li>ul>li{
+        border: solid 1px wheat;
+    }
+    header #hablando{
+        display: none;
     }
     img{
-       width: 350px;
+       width: 340px;
        height: auto;
     }
+    #hero{
+        padding: 0;
+        margin: 10px;
+    }
     #hero>h1{
-        font-size: 10px;
         font-weight: bold;
-        text-align: center;
+        text-align:center;
+        font-size: 30px;
     }
     #hero>h4 {
-        font-size: 8px;
         text-align:center;
+        font-size: 10px;
     }
+    #correo{
+        border: solid 1px orange;
+        height: 35px;
+        width: 160px;
+        text-align: center;
+    }
+    button{
+        border: solid 1px orange;
+        height: 35px;
+        width: 160px;
+        text-align: center;
+        background-color: orange;
+        font-size: 400;
+    }
+    
 }
